@@ -3,6 +3,11 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f3f3f3;
+
+  display: flex;
+  justify-content: center; /* căn ngang */
+  align-items: center; /* căn dọc */
+  min-height: 100vh; /* full chiều cao màn hình */
 }
 display: flex;
 justify-content: center; /* căn ngang */
@@ -30,7 +35,7 @@ justify-content: center; /* căn ngang */
 }
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px; /* giống điện thoại hơn */
   background: white;
   min-height: 100vh;
 }
