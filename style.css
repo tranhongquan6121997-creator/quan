@@ -52,3 +52,10 @@ justify-content: center; /* căn ngang */
   text-decoration: none;
   font-weight: bold;
 }
+.feedback-video {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid #e5e5e5;
+  background: #000;
+}
