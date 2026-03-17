@@ -39,3 +39,16 @@ justify-content: center; /* căn ngang */
   background: white;
   min-height: 100vh;
 }
+.box {
+  background: #f1f1f1;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.box a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: bold;
+}
