@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #198754;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: white;
+  color: #198754;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
