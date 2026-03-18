@@ -9,9 +9,6 @@ body {
   align-items: center; /* căn dọc */
   min-height: 100vh; /* full chiều cao màn hình */
 }
-display: flex;
-justify-content: center; /* căn ngang */
-
 .hero {
   background: #198754;
   color: white;
