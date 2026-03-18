@@ -59,3 +59,37 @@ justify-content: center; /* căn ngang */
   border: 1px solid #e5e5e5;
   background: #000;
 }
+.feedback-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.feedback-slide {
+  min-width: 85%;
+  max-width: 85%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+}
+
+.feedback-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.feedback-video-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-video {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 16px;
+  background: #000;
+}
